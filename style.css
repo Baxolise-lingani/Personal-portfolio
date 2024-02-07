@@ -22,7 +22,72 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
-body{
-    background: var(--bg-color);
-    color: var(--text-color);
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #F6F5F1;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #F6F5F1;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left-links, #contact-links {
+    display: flex;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-family: 'Italiana', serif;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: rgb(241, 30, 65);
+}
+
+#logo a {
+    text-decoration: none;
+    color: #333;
+    font-size: 4em;
+    font-family: 'Redressed', cursive;
+}
+
+* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #left-links, #contact-links {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 0 10px 10px 0;
+    }
 }
