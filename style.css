@@ -33,6 +33,12 @@ body {
     color: #333;
 }
 
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
 /* Header styles */
 header {
     background-color: #F6F5F1;
