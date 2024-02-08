@@ -99,9 +99,11 @@ nav a:hover {
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.6rem;
+    font-family: 'Redressed', cursive;
 }
 .home-content h3{
     font-size: 4rem;
+    font-family: 'Redressed', cursive;
 }
 .home-content h2, h1{
     margin-right: 100px;
