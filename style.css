@@ -43,7 +43,14 @@ section{
 header {
     background-color: #F6F5F1;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
     padding: 10px 20px;
+    align-items: center;
+    z-index: 100;
+
 }
 
 nav {
@@ -85,8 +92,20 @@ nav a:hover {
     align-items: center;
     padding: 40px;
     background-color: #F6F5F1;
+    
 }
 
+.home-content h2{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+}
+.home-content h3{
+    font-size: 4rem;
+}
+.home-content h2, h1{
+    margin-right: 100px;
+}
 .content-left {
     flex: 1;
 }
