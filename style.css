@@ -87,52 +87,32 @@ nav a:hover {
 /* Add these styles to your existing CSS file */
 
 /* Home Section styles */
-.content-section {
+.home {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.content-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
-    background-color: #F6F5F1;
+}
+
+.home-content{
+    margin-left: 8%;
+    margin-top: 13%;
+    font-family: 'Italiana',serif;
+    font-size: 30px;
     
 }
 
-.home-content h2{
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 1.6rem;
-    font-family: 'Italiana', serif;
-}
-.home-content h3{
-    font-size: 4rem;
-    font-family: 'Italiana', serif;
-}
-.home-content h2, h1{
-    margin-right: 100px;
-}
-.content-left {
-    flex: 1;
-}
-
-.image-right {
-    flex: 1;
-    text-align: right;
-}
-
-.image-right img {
-    max-width: 100%;
-    height: 400px;
-    margin-right: 80px;
-    border-radius: 8px; /* Optional: Add border-radius for a rounded image */
-}
-
-
-* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
+.image-container {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
 
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
